@@ -1,0 +1,7 @@
+import { Context, Schema } from 'koishi';
+export declare const name = "news-issue24";
+export interface Config {
+}
+export declare const Config: Schema<Config>;
+export declare const usage = "\n\n<style>\nhtml, body {\n  width: 100%;\n  height: 100%;\n  display: flex;\n  background: #000;\n}\nsvg {\n  width: 100%;\n  height: 100px;\n  margin: auto;\n}\nsvg text {\n  text-transform: uppercase;\n  animation: stroke 5s infinite alternate;\n  letter-spacing: 10px;\n  font-size: 90px;\n}\n@keyframes stroke {\n  0% {\n    fill: rgba(72, 138, 20, 0);\n    stroke: rgba(54, 95, 160, 1);\n    stroke-dashoffset: 25%;\n    stroke-dasharray: 0 50%;\n    stroke-width: 0.8;\n  }\n  50% {\n    fill: rgba(72, 138, 20, 0);\n    stroke: rgba(54, 95, 160, 1);\n    stroke-width: 1.2;\n  }\n  70% {\n    fill: rgba(72, 138, 20, 0);\n    stroke: rgba(54, 95, 160, 1);\n    stroke-width: 1.5;\n  }\n  90%,\n  100% {\n    fill: rgba(72, 138, 204, 1);\n    stroke: rgba(54, 95, 160, 0);\n    stroke-dashoffset: -25%;\n    stroke-dasharray: 50% 0;\n    stroke-width: 0;\n  }\n}\n\n</style>\n<svg viewBox=\"400 0 400 200\">\n  <text x=\"0\" y=\"70%\"> api\u6765\u81EA\u590F\u67D4\u7684\u516C\u76CA\u9879\u76EE </text>\n</svg>\n\n- \u63D2\u4EF6\u52A8\u6001\u5B57\u4F53\u53C2\u8003\u63D2\u4EF6`Kbot`\n- \u590F\u67D4\u7F51\u5740`https://api.aa1.cn/`\u6B22\u8FCE\u7231\u53D1\u7535\n";
+export declare function apply(ctx: Context): void;
